@@ -31,7 +31,7 @@ describe 'Loops' do
 
   describe 'for' do
     it "prints out Welcome to Flatiron School\'s Web Development Course! 7 times" do
-      expect{ for_iterator(7) }.to output(@looping_string).to_stdout
+      expect{ for_iterator(1..7) }.to output(@looping_string).to_stdout
     end
   end
 end
