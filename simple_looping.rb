@@ -40,10 +40,12 @@ def until_iterator(number_of_times)
 end
 
 
-def for_iterator(range)
+def for_iterator(number_of_times)
     phrase = "Welcome to Flatiron School's Web Development Course!"
-  for n in number_of_times 
-    {puts phrase}
+    n = 0
+  for n in number_of_times do
+    puts phrase 
+  end
 
 end
 
